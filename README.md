@@ -1,112 +1,96 @@
-# Repository Template
+> Warning: This is the README for the publically accessible version of the QOF package. If you are an internal analyst please don't use the below instructions to run the publication process.
 
-[![CI/CD Pull Request](https://github.com/nhs-england-tools/repository-template/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/nhs-england-tools/repository-template/actions/workflows/cicd-1-pull-request.yaml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=repository-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=repository-template)
+<p>&nbsp;</p>
 
-Start with an overview or a brief description of what the project is about and what it does. For example -
+# QOF
 
-Welcome to our repository template designed to streamline your project setup! This robust template provides a reliable starting point for your new projects, covering an essential tech stack and encouraging best practices in documenting.
+## Contact Information
 
-This repository template aims to foster a user-friendly development environment by ensuring that every included file is concise and adequately self-documented. By adhering to this standard, we can promote increased clarity and maintainability throughout your project's lifecycle. Bundled within this template are resources that pave the way for seamless repository creation. Currently supported technologies are:
+Repository owner: Primary Care Domain Analytical Team
 
-- Terraform
-- Docker
+Email: primarycare.domain@nhs.net
 
-Make use of this repository template to expedite your project setup and enhance your productivity right from the get-go. Enjoy the advantage of having a well-structured, self-documented project that reduces overhead and increases focus on what truly matters - coding!
+To contact us raise an issue on Github or via email and we will respond promptly.
 
-## Table of Contents
+<p>&nbsp;</p>
 
-- [Repository Template](#repository-template)
-  - [Table of Contents](#table-of-contents)
-  - [Setup](#setup)
-    - [Prerequisites](#prerequisites)
-    - [Configuration](#configuration)
-  - [Usage](#usage)
-    - [Testing](#testing)
-  - [Design](#design)
-    - [Diagrams](#diagrams)
-    - [Modularity](#modularity)
-  - [Contributing](#contributing)
-  - [Contacts](#contacts)
-  - [Licence](#licence)
+## Publication Summary
 
-## Setup
+The objective of the Quality and Outcomes Framework (QOF) is to improve the care patients are given by rewarding practices for the quality of care they provide to their patients, based on several indicators across a range of key areas of clinical care and public health. The publication provides data for the reporting year 1 April 2022 to 31 March 2023 and covers all General Practices in England that participated in QOF in 2022-23.
 
-By including preferably a one-liner or if necessary a set of clear CLI instructions we improve user experience. This should be a frictionless installation process that works on various operating systems (macOS, Linux, Windows WSL) and handles all the dependencies.
+The publications can be found here:
 
-Clone the repository
+https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data
 
-```shell
-git clone https://github.com/nhs-england-tools/repository-template.git
-cd nhs-england-tools/repository-template
+<p>&nbsp;</p>
+
+## Repository Summary
+
+> Whilst this repository is the publically accessible version, the main aim of this repository is to inform users how the publication outputs and indicators within the publication were produced and is unlikely to benefit users with regards to running and producing the publication outputs due to the specific nature of the input data required.
+
+Please note that you may not be able to run the code as this requires access to a private SQL server. The data on the private server contains reference data that is used for mapping and patient registration purposes. The reference tables used contain data from the epraccur file which can be downloaded from this [webpage](https://digital.nhs.uk/services/organisation-data-service/file-downloads/gp-and-gp-practice-related-data), and a restricted patient registration report from the National Health Applications and Infrastructure Service (NHAIS); the NHAIS patient registration data is however published each month [here](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice).
+
+<p>&nbsp;</p>
+
+## Set up
+
+1. Make a [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of the repository on your local machine.
+2. Update config.json accordingly.
+3. Run QOF_22_23_v2.ipynb.
+> If you are running for publication you will need to amend the code so that test_run = False is unhashed
+
+<p>&nbsp;</p>
+
+## Creating a file structure 
+
 ```
-
-### Prerequisites
-
-The following software packages, or their equivalents, are expected to be installed and configured:
-
-- [docker](https://www.docker.com/) container runtime or a compatible tool, e.g. [podman](https://podman.io/),
-- [asdf](https://asdf-vm.com/) version manager,
-- [GNU make](https://www.gnu.org/software/make/) 3.82 or later,
-- [GNU coreutils](https://www.gnu.org/software/coreutils/) and [GNU binutils](https://www.gnu.org/software/binutils/) may be required to build dependencies like Python, which may need to be compiled during installation. For macOS users, this has been scripted and automated by the `dotfiles` project; please see this [script](https://github.com/nhs-england-tools/dotfiles/blob/main/assets/20-install-base-packages.macos.sh) for details,
-- [Python](https://www.python.org/) required to run Git hooks,
-- [jq](https://jqlang.github.io/jq/) a lightweight and flexible command-line JSON processor.
-
-> [!NOTE]<br>
-> The version of GNU make available by default on macOS is earlier than 3.82. You will need to upgrade it or certain `make` tasks will fail. On macOS, you will need [homebrew](https://brew.sh/) installed, then to install `make`, like so:
->
-> ```shell
-> brew install make
-> ```
->
-> You will then see instructions to fix your `$PATH` variable to make the newly installed version available. If you are using [dotfiles](https://github.com/nhs-england-tools/dotfiles), this is all done for you.
-
-### Configuration
-
-Installation and configuration of the toolchain dependencies
-
-```shell
-make config
+root
+|
+|---LIVE
+|   |
+|   |---PROCESS 1
+|   |   |
+|   |   |---INPUTS
+|   |   |   |
+|   |   |   |---Templates
+|   |   |
+|   |   |---OUTPUTS
+|   |   |   |
+|   |   |   |---DO NOT PUBLISH
+|
+|---CHECKING
 ```
+> Please note that for test runs all outputs will be located within the test folder which is automatically created in your working directory
 
-## Usage
+<p>&nbsp;</p>
 
-After a successful installation, provide an informative example of how this project can be used. Additional code snippets, screenshots and demos work well in this space. You may also link to the other documentation resources, e.g. the [User Guide](./docs/user-guide.md) to demonstrate more use cases and to show more features.
+## QOF Acronym dictonary
+- ach	= achievement
+- adj	= adjusted
+- cols = columns
+- dedup = deduplicate (i.e. duplicates removed)
+- dup	= duplicate
+- denom = denominator
+- dom = domain
+- geog = geography or geographies
+- gr = group
+- ind = indicator
+- list = list
+- max = maximum
+- min = minimum
+- num = numerator
+- org = organisation
+- ov = over
+- piv = pivot
+- prac = practice
+- ref = reference
+- reg = register
+- subdom = sub domain
+- sup = suppressed
+- un = under
 
-### Testing
-
-There are `make` tasks for you to configure to run your tests.  Run `make test` to see how they work.  You should be able to use the same entry points for local development as in your CI pipeline.
-
-## Design
-
-### Diagrams
-
-The [C4 model](https://c4model.com/) is a simple and intuitive way to create software architecture diagrams that are clear, consistent, scalable and most importantly collaborative. This should result in documenting all the system interfaces, external dependencies and integration points.
-
-![Repository Template](./docs/diagrams/Repository_Template_GitHub_Generic.png)
-
-### Modularity
-
-Most of the projects are built with customisability and extendability in mind. At a minimum, this can be achieved by implementing service level configuration options and settings. The intention of this section is to show how this can be used. If the system processes data, you could mention here for example how the input is prepared for testing - anonymised, synthetic or live data.
-
-## Contributing
-
-Describe or link templates on how to raise an issue, feature request or make a contribution to the codebase. Reference the other documentation files, like
-
-- Environment setup for contribution, i.e. `CONTRIBUTING.md`
-- Coding standards, branching, linting, practices for development and testing
-- Release process, versioning, changelog
-- Backlog, board, roadmap, ways of working
-- High-level requirements, guiding principles, decision records, etc.
-
-## Contacts
-
-Provide a way to contact the owners of this project. It can be a team, an individual or information on the means of getting in touch via active communication channels, e.g. opening a GitHub discussion, raising an issue, etc.
 
 ## Licence
+QOF codebase is released under the MIT License.
 
-> The [LICENCE.md](./LICENCE.md) file will need to be updated with the correct year and owner
-
-Unless stated otherwise, the codebase is released under the MIT License. This covers both the codebase and any sample code in the documentation.
-
-Any HTML or Markdown documentation is [© Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+The documentation is © Crown copyright and available under the terms of the Open Government 3.0 licence.
