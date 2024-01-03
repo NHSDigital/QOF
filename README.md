@@ -16,13 +16,7 @@ To contact us raise an issue on Github or via email and we will respond promptly
 
 ## Publication Summary
 
-The objective of the Quality and Outcomes Framework (QOF) is to improve the care patients are given by rewarding practices for the quality of care they provide to their patients, based on several indicators across a range of key areas of clinical care and public health. This publication provides data for the reporting year 1 April 2022 to 31 March 2023 and covers all General Practices in England that participated in QOF in 2022-23.
-
-Due to the impact of the COVID-19 pandemic on activity in general practice, payment protection was applied to the 2021-22 QOF service and may affect QOF activity and/or its recording for that year. Practices were advised in March 2022 that temporary income protection arrangements would not be applied to the 2022-23 QOF service. Consequently, indicator groups that contain indicators to which payment protection was applied in 2021-22 have not been compared to 2022-23 achievement data.
-
-More information on payment protection can be found in the ‘Technical Annex’ which forms part of this publication and the 'Letters to practices' found under 'Related Links' below.
-
-GP practices have been mapped to their respective PCNs, Sub ICB Locations, ICBs and Regions using reference data current on 1 April 2023. This mapping has been applied to data for both the current and previous reporting year.
+The objective of the Quality and Outcomes Framework (QOF) is to improve the care patients are given by rewarding practices for the quality of care they provide to their patients, based on several indicators across a range of key areas of clinical care and public health. The publication provides data for the reporting year 1 April 2022 to 31 March 2023 and covers all General Practices in England that participated in QOF in 2022-23.
 
 The publications can be found here:
 
@@ -30,14 +24,25 @@ https://digital.nhs.uk/data-and-information/publications/statistical/quality-and
 
 <p>&nbsp;</p>
 
+## Repository Summary
+
+> Whilst this repository is the publically accessible version, the main aim of this repository is to inform users how the publication outputs and indicators within the publication were produced and is unlikely to benefit users with regards to running and producing the publication outputs due to the specific nature of the input data required.
+
+Please note that you may not be able to run the code as this requires access to a private SQL server. The data on the private server contains reference data that is used for mapping and patient registration purposes. The reference tables used contain data from the epraccur file which can be downloaded from this [webpage](https://digital.nhs.uk/services/organisation-data-service/file-downloads/gp-and-gp-practice-related-data), and a restricted patient registration report from the National Health Applications and Infrastructure Service (NHAIS); the NHAIS patient registration data is however published each month [here](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice).
+
+<p>&nbsp;</p>
+
 ## Set up
+
 1. Make a [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of the repository on your local machine.
 2. Update config.json accordingly.
 3. Run QOF_22_23_v2.ipynb.
+> If you are running for publication you will need to amend the code so that test_run = False is unhashed
 
 <p>&nbsp;</p>
 
 ## Creating a file structure 
+
 ```
 root
 |
@@ -55,10 +60,9 @@ root
 |
 |---CHECKING
 ```
-<p>&nbsp;</p>
+> Please note that for test runs all outputs will be located within the test folder which is automatically created in your working directory
 
-## Instructions for publication production
-Read the guidance https://nhsd-confluence.digital.nhs.uk/display/KH/Quality+and+Outcomes+Framework+%28QOF%29+data+download+and+publication+guidance.
+<p>&nbsp;</p>
 
 ## QOF Acronym dictonary
 - ach	= achievement

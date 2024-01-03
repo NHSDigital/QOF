@@ -1,5 +1,5 @@
 {
-"Server" : "",
-"Database" : "",
-"root" : ""
+"Server" : "insert SQL server name",
+"Database" : "insert database name",
+"root" : "insert file path - make use of double escape characters \\"
 }
