@@ -36,7 +36,9 @@ Please note that you may not be able to run the code as this requires access to 
 
 1. Make a [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of the repository on your local machine.
 2. Update config.json accordingly.
-3. Run QOF_22_23_v2.ipynb.
+3. Create the file structure within your machine as per the diagram below
+4. Move files from public_metadata folder into their respective folders and populate accordingly
+5. Run QOF_22_23_v2.ipynb.
 > If you are running for publication you will need to amend the code so that test_run = False is unhashed
 
 <p>&nbsp;</p>
@@ -52,7 +54,39 @@ root
 |   |   |
 |   |   |---INPUTS
 |   |   |   |
+|   |   |   |---CONTROL_FILES
+|   |   |   |   |
+|   |   |   |   |---CONTROL_FILE.csv
+|   |   |   |   |---INDICATOR_GROUP_CHANGE_MESSAGE.csv
+|   |   |   |   |---INDICATOR_REFERENCE_CONTROL.csv
+|   |   |   |   |---PCA_REFERENCE.csv
+|   |   |   |   |---VALIDATION_RULES.csv
+|   |   |   |   |
+|   |   |   |---CQRS_DATA
+|   |   |   |   |---FINAL_PRACTICE_LIST.csv
+|   |   |   |   |---INDICATOR_ACHEIVED_POINTS.csv
+|   |   |   |   |---INDICATOR_VALUES.csv
+|   |   |   |   |
+|   |   |   |---GEOG_MAPPINGS
+|   |   |   |   |---QOF_MANUAL_MAPPINGS.csv
+|   |   |   |   |
+|   |   |   |---PREVIOUS_YEAR
+|   |   |   |   |
+|   |   |   |   |---PREVIOUS_ACHIEVEMENTS_PCAS.csv
+|   |   |   |   |---PREVIOUS_INDICATOR_CONTROL.csv
+|   |   |   |   |---PREVIOUS_INDICATOR_MAPPINGS.csv
+|   |   |   |   |---PREVIOUS_ORGANISATION_REFERENCE.csv
+|   |   |   |   |---PREVIOUS_PREVALENCE.csv
+|   |   |   |   |---PREVIOUS_PREVALENCE_NON_REGISTER_ALT_INDICATORS.csv
+|   |   |   |   |---PREVIOUS_PREVALENCE_NON_REGISTER_INDICATORS.csv
+|   |   |   |   |
 |   |   |   |---Templates
+|   |   |   |   |
+|   |   |   |   |---TEMPLATE-(3-9)-QOF-YYYY...xlsx
+|   |   |   |   |
+|   |   |   |   |---Practices
+|   |   |   |   |
+|   |   |   |   |   |---TEMPLATE-(10-19)-QOF-YYYY-prac...xlsx
 |   |   |
 |   |   |---OUTPUTS
 |   |   |   |
