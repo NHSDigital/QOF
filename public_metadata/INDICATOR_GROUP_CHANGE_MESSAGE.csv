@@ -1,0 +1,12 @@
+INDICATOR_GROUP_CHANGE_NOTE,NOTE_TYPE,MESSAGE
+1,CHANGE_NOTE,*Indicators in this group have changed.
+2,NEW_NOTE,*New indicator - no data available for the previous year.
+3,POINTS_NOTE,*Indicators in this group remain the same but the points allocation has changed.
+4,POINTS_PCA_NOTE,*The points allocation and exclusions for this group have changed. See data quality annex for more details.
+5,PCA_NOTE,*PCAs for indicators in this group have changed. See data quality annex for more details.
+6,REG_CHANGE,*Register definition has changed therefore prevalence is not comparable to previous years.
+7,REG_PCA,*Register PCAs have changed therefore prevalence is not comparable to previous years.
+8,POINTS_NOTE_PCA_NOTE,*Indicators in this group remain the same but the points allocation has changed and PCAs for indicators in this group have changed. See data quality annex for more details.
+9,IND_POINTS_NOTE,*Indicators in this group have changed and the points allocation has changed for existing indicators.
+10,QI_NOTE,"*Quality Improvement indicators are intended to change each year, therefore the previous year's data are not presented alongside the current year's data."
+11,IND_DESC_PCA_NOTE,*The description and PCAs for one of the indicators has changed and may result in some variation in the data when compared to the previous year. See data quality annex for more details

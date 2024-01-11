@@ -1,0 +1,5 @@
+RULE,DESCRIPTION
+1,Achieved points <= manual points total
+2,Practice closure before 1 April and recorded before 1 July
+3,Practice status on 31 March <> Active
+4,Practice number of registered patients not available within 3 months of 31 March
