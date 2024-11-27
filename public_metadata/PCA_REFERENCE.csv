@@ -1,51 +1,48 @@
 SHORT_NAME,NAME,DESCRIPTION,TYPE,GENERAL_SPECIFIC
 ACEDEC,ACEDEC,Patient chose not to receive an ACE inhibitor or ARB in the 12 months leading up to and including the payment period end date.,PCA,Specific
-AFIBINV1,AFIBINVITE1,"Patient has not responded to at least two atrial fibrillation care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
-AFIBPCADEC,AFIBPCADEC_DAT,Patient chose not to receive atrial fibrillation quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
+AFIBINV1,AFIBINV1,"Patient has not responded to at least two atrial fibrillation care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
+AFIBPCADEC,AFIBPCADEC,Patient chose not to receive atrial fibrillation quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 AFIBPCAPU,AFIBPCAPU,Patient for whom atrial fibrillation quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 ALCDEC,ALCDEC,Patient chose not to have alcohol consumption screening in the 12 months leading up to and including the payment period end date,PCA,Specific
-AMPR2_DAT,AMPR2_DAT,Amputation of right and left foot recorded or congenital abnormality meaning foot examination is not suitable,Exclusion,n/a
-ASTDIAGINV,ASTDIAGINVITE,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, in the period 93 days before and up to 186 days after their earliest unresolved asthma diagnosis.",PCA,Specific
-ASTINVITE1,ASTINVITE1_DAT,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date",PCA,General
-ASTMONDEC,ASTMONDEC_DAT,Patient chose not to receive asthma monitoring in the 12 months leading up to and including the payment period end date,PCA,Specific
-ASTPCADEC,ASTPCADEC_DAT,Patient chose not to receive asthma quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
-ASTPCAPU,ASTPCAPU_DAT,Patient for whom asthma quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
-ASTPCASU1,ASTPCASUSP1,Asthma service unavailable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
-ASTREGINV,ASTREGINVITE,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, up to 186 days after their latest registration date.",PCA,Specific
-BENGABOP1M,BENGABOP1M,"Patient has not been prescribed and dependency causing drugs (benzodiazepine, gabapentinoid, opioid) in the 1 month leading up to the achievement date.",Exclusion,n/a
-BGOPCON6M,BGOPCON6M,"Patient has been continuously prescribed a dependency causing drug (benzodiazepine, gabapentinoid, opioid) in the 6 month leading up to the quality service start date.",Exclusion,n/a
+AMPR3_DAT,AMPR3_DAT,Recorded that both the left and right feet have been either amputated or a congenital abnormality meaning that a foot examination is not suitable,Exclusion,n/a
+ASTDIAGINV,ASTDIAGINV,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, in the period 93 days before and up to 186 days after their earliest unresolved asthma diagnosis.",PCA,Specific
+ASTINVITE1,ASTINVITE1,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date",PCA,General
+ASTMONDEC,ASTMONDEC,Patient chose not to receive asthma monitoring in the 12 months leading up to and including the payment period end date,PCA,Specific
+ASTPCADEC,ASTPCADEC,Patient chose not to receive asthma quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
+ASTPCAPU,ASTPCAPU,Patient for whom asthma quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
+ASTPCASU1,ASTPCASU1,Asthma service unavailable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
+ASTREGINV,ASTREGINV,"Patients who have not responded to at least two asthma care review invitations, made at least 7 days apart, up to 186 days after their latest registration date.",PCA,Specific
 BLDTESTDEC,BLDTESTDEC,Patient chose not to receive a blood test in the 12 months leading up to and including the payment period end date.,PCA,Specific
 BMIDEC,BMIDEC,Patient chose not to have their BMI measured in the 12 months leading up to and including the payment period end date.,PCA,Specific
 BMIPU,BMIPU,Patient for whom BMI measurement was deemed unsuitable in the 12 months leading up to and including the payment period end date.,PCA,Specific
 BPDEC,BPDEC,Patient chose not to have their blood pressure recorded in the 12 months leading up to and including the payment period end date,PCA,Specific
 BPDEC1,BPDEC1,Patient chose not to have their blood pressure recorded in the 5 years leading up to and including the payment period end date,PCA,Specific
-CAN_DAT15M,CAN_DAT15M,Cancer diagnosis more than 15 months before end of payment period,Exclusion,n/a
-CAN_DAT1J,CAN_DAT1J,Cancer diagnosis earlier than 1 January prior to the QOF Service Start Date ,Exclusion,n/a
+BPORHBPDEC,BPORHBPDEC,Patient chose not to have their blood pressure recorded or undertake home blood pressure monitoring in the 12 months leading up to and including the payment period end date.,PCA,Specific
 CAN_DAT24M,CAN_DAT24M,Cancer diagnosis more than 24 months before end of payment period,Exclusion,n/a
+CANDAT15M,CANDAT15M,Cancer diagnosis more than 15 months before PPED,Exclusion,n/a
 CANINVITE,CANINVITE,"Patient has not responded to at least two cancer care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 CANPCADEC,CANPCADEC,Patient chose not to receive cancer quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 CANPCAPU,CANPCAPU,Patient for whom cancer quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 CANSUP12M,CANSUP12M,Information about cancer support services available in primary care provided at least 12 months before the payment period end date.,Exclusion,n/a
 CHAD_VAL2,CHAD_VAL2,Patient's latest CHADS2 or CHA2DS2-VASc stroke risk assessment was recorded at least 12 months prior to the payment period end date and had a score of 2 or more. ,Exclusion,n/a
-CHADVASC,CHADVASC_VAL,Patient’s most recent CHA2DS2-VASc or CHADS2 stroke risk assessment score is less than or equal to 1,Exclusion,n/a
+CHADVASC,CHADVASC,Patient’s who havent had a CHA2DS2-VASc or CHADS2 risk assessment or their most recent CHA2DS2-VASc or CHADS2 stroke risk assessment score is less than or equal to 1,Exclusion,n/a
+CHDBPINV,CHDBPINV,"Patient has not responded to at least two CHD care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date, and had no blood pressure recordings, or latest blood pressure reading is above target levels.",PCA,General
 CHDINVITE,CHDINVITE,"Patient has not responded to at least two CHD care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
-CHDINVITEB,CHDINVITEB,"Patient has not responded to at least two CHD care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date, and had no blood pressure recordings, or latest blood pressure reading is above target levels.",PCA,General
 CHDPCADEC,CHDPCADEC,Patient chose not to receive CHD quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 CHDPCAPU,CHDPCAPU,Patient for whom CHD quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 CHDSMOK,CHDSMOK,"Patient does not have any combination of the following conditions: CHD, PAD, stroke or TIA, hypertension, diabetes, COPD, CKD, asthma, schizophrenia, bipolar affective disorder or other psychoses.",Exclusion,n/a
 CHOLDEC,CHOLDEC,Patent chose not to have a cholesterol test in the 12 months leading up to and including the payment period end date ,PCA,Specific
-CHOLMAX,CHOLMAX,Patient receiving maximum tolerated cholesterol lowering treatment in the 12 months leading up to and including the payment period end date.,PCA,Specific
-CHRPAIN24M,CHRPAIN24M,Patient does not have a diagnosis of chronic pain in the 24 months leading up to the achievement date.,Exclusion,n/a
-COPDINVITE,COPDINVITE,"Patient not responded to at least two COPD care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
-COPDPCADEC,COPDPCADEC,Patient chose not to receive COPD quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
-COPDPCAPU,COPDPCAPU,Patient for whom COPD quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
-CSDEC,CSPCADEC,Patient chose not to receive cervical smear,PCA,General
+CHOLMAX,CHOLMAX,Patient receiving maximum tolerated cholesterol lowering treatment in the 12 months leading up to and including the payment period end date,PCA,Specific
+COPDINVITE,COPDINVITE,"Patients not responded to at least two COPD care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
+COPDPCADEC,COPDPCADEC,Patients chose not to receive COPD quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
+COPDPCAPU,COPDPCAPU,Patients for whom COPD quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
+CSDEC,CSDEC,Patient chose not to receive cervical smear,PCA,General
 CSMOK,CSMOK,Patient does not have a latest smoking status of ‘current smoker’,Exclusion,n/a
-CSPCAINV,CSPCAINVITE,Patient has not responded to three invites for cervical screening.,PCA,General
+CSPCAINV,CSPCAINV,Patient has not responded to three invites for cervical screening.,PCA,General
 CSPU,CSPU,Cervical screening deemed unsuitable,PCA,Specific
 CVDHIST,CVDHIST,Patient has pre-existing CVD,Exclusion,n/a
 CVDNOHIST,CVDNOHIST,Patient does not have pre-existing CVD,Exclusion,n/a
-DEMCPDEC,DEMCPDEC,Patient chose not to receive a dementia care plan or chose not to receive a dementia care plan review in the 12 months leading up to and including the payment period end date,PCA,Specific
+DEMCPDEC,DEMCPDEC,Patient chose not to receive a dementia care plan or chose not to receive a dementia care plan review in the 12 months leading up to and including the payment period end date.,PCA,Specific
 DEMINVITE,DEMINVITE,"Patient has not responded to at least two dementia care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 DEMPCADEC,DEMPCADEC,Patient chose not to receive dementia quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 DEMPCAPU,DEMPCAPU,Patient for whom dementia quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
@@ -55,48 +52,52 @@ DEPRPCADEC,DEPRPCADEC,Patient chose not to receive depression quality indicator 
 DEPRPCAPU,DEPRPCAPU,Patient for whom depression quality indicator care has been identified as unsuitable for the patient in the 12 months leading up to and including the payment period end date.,PCA,General
 DEPRVW_DAT,DEPRVW_DAT,Patient had a depression review more than 12 months before end of payment period,Exclusion,n/a
 DIAG_DAT13,DIAG_DAT13,Patient diagnosed before 01 April 2013,Exclusion,n/a
-DIAG_DATSD,DIAG_DAT21,Patient diagnosed before 01 April 2021,Exclusion,n/a
-DIAG_ECOG,DIAG_ECOG,Patient's most recent heart failure diagnosis was within the 6 months leading up to and including the payment period end date and they did not receive an echocardiogram/specialist assessment between 93 days before the date of diagnosis and the payment period end date.,Exclusion,n/a
-DIAG1_DAT,DIAG_DAT,Patient diagnosed within 3 months of end of payment period,PCA,General
-DIAG1_DT9M,DIAG_DAT9M,Patient diagnosed within 9 months of end of payment period,PCA,General
-DIAGASTTST,DIAG_ASTTEST,Patient's most recent asthma diagnosis was within the 6 months leading up to and including the payment period end date and they did not receive the required tests between 93 days before the date of diagnosis and the payment period end date.,Exclusion,n/a
+DIAG_DAT23,DIAG_DAT23,Patient diagnosed before 01 April 2023,Exclusion,n/a
+DIAG1_DAT,DIAG1_DAT,Patient diagnosed within 3 months of end of payment period,PCA,General
+DIAG1_DT9M,DIAG1_DT9M,Patient diagnosed within 9 months of end of payment period,PCA,General
+DIAGASTTST,DIAGASTTST,Patient's most recent asthma diagnosis was within the 6 months leading up to and including the payment period end date and they did not receive the required tests between 93 days before the date of diagnosis and the payment period end date.,Exclusion,n/a
 DIAGCRV12M,DIAGCRV12M,Patient's most recent episode of cancer was within the 12 months leading up to and including the payment period end date and they did not receive a cancer care review between the date of diagnosis and the payment period end date.,Exclusion,n/a
 DIAGCSUP3M,DIAGCSUP3M,Most recent episode of cancer was within the 3 months leading up to and including the payment period end date and information about cancer support services available in primary care not provided between the date of diagnosis and the payment period end date.,Exclusion,n/a
 DM_DAT2,DM_DAT2,Diagnosis of diabetes mellitus recorded 21 or more months before end of payment period,Exclusion,n/a
 DM_DAT3,DM_DAT3,Diagnosis of diabetes mellitus in the 9 months before end of payment period AND patient has not been referred for diabetes structured education programme,Exclusion,n/a
 DM_DAT4,DM_DAT4,Unresolved diabetes diagnosis recorded at least 12 months before the payment period end date.,Exclusion,n/a
 DMBPINVITE,DMBPINVITE,"Patient has not responded to at least two diabetes care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date, and had no blood pressure recordings, or latest blood pressure reading is above target levels.",PCA,General
+DMCVDEXC,DMCVDEXC,Patient on the diabetes register and a history of CVD (excluding haemorrhagic stroke).,Exclusion,n/a
 DMIFINVITE,DMIFINVITE,"Patient has not responded to at least two diabetes care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date, and had no IFCC-HbA1c recorded, or latest recorded IFCC-HbA1c  is above target levels.",PCA,General
 DMINVITE,DMINVITE,"Patient has not responded to at least two diabetes care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 DMMAX,DMMAX,Patient on maximum tolerated diabetes treatment in the 12 months leading up to and including the payment period end date.,PCA,Specific
 DMPCADEC,DMPCADEC,Patient chose not to receive diabetes quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 DMPCAPU,DMPCAPU,Patient for whom diabetes quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 DMTYPE2,DMTYPE2,"Patient's latest diagnosis is type 2 diabetes, and their latest CVD risk score is under 10% with no subsequent score of 10% or over recorded in the 3 years leading up to and including the achievement date. ",Exclusion,n/a
+DOACDVITKC,DOACDVITKC,Patients with no mechanical prosthetic valve replacement who have chosen not to receive a direct-acting oral anticoagulant (DOAC) in the last 12 months and who have a Vitamin K atangonist contraindication anywhere in their record,PCA,Specific
+DOACDVITKD,DOACDVITKD,Patients with no mechanical prosthetic valve replacement who have chosen not to receive both a direct-acting oral anticoagulant (DOAC) and a Vitamin K atangonist in the last 12 months,PCA,Specific
+DOACXVITKC,DOACXVITKC,"Patients with no mechanical prosthetic valve replacement who have a Vitamin K atangonist contraindication anywhere in their record and any of the following: direct-acting oral anticoagulant (DOAC) contraindication code anywhere in their record, an Antiphospholipid syndrome diagnosis anywhere in their record, a direct-acting oral anticoagulant (DOAC) not indicated code in the 12 months up to and including the reporting period end date.",PCA,Specific
+DOACXVITKD,DOACXVITKD,"Patients with no mechanical prosthetic valve replacement who have chosen not to receive a Vitamin K in the last 12 months and any of the following: direct-acting oral anticoagulant (DOAC) contraindication code anywhere in their record, an Antiphospholipid syndrome diagnosis anywhere in their record, a direct-acting oral anticoagulant (DOAC) not indicated code in the 12 months up to and including the reporting period end date",PCA,Specific
 DSEP_DAT,DSEP_DAT,Patient referred for diabetes structured education programme more than 12 months before end of payment period,Exclusion,n/a
 DSEPDEC,DSEPDEC,Patient chose not to be referred to a diabetes structured education programme in the 279 days following their diabetes diagnosis.,PCA,Specific
 DSEPPU,DSEPPU,Patient for whom a referral to a diabetes structured education programme was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,Specific
 DSEPSU,DSEPSU,Patent for whom a diabetes structured education programme service was unavailable in the 279 days following their diabetes diagnosis.,PCA,Specific
-DTPCON,DTPCON,"Patient had a contraindication to a diphtheria, tetanus and pertussis containing vaccine recorded before they reached 8 months of age",PCA,Specific
-ECDECSP1,ECDECSP1,Patient chose not to receive an echocardiogram in the 6 months after heart failure diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
-ECPCASUSP1,ECPCASUSP1,Echocardiography service unavailable in the 6 months after heart failure diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
-ECPUSP1,ECPUSP1,Patient for whom echocardiography was unsuitable in the 6 months after heart failure diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
+DTPCON,DTPCON,"Patient had a contraindication to a diphtheria, tetanus and pertussis containing vaccine recorded before they reached 8 months of age.",PCA,Specific
+ECPUSP6,ECPUSP6,Patient was clinically unsuitable for echocaridogram service in the 6 months following registration at a new practice for patients diagnosed prior to registering at the new practice.,PCA,Specific
 FEDEC,FEDEC,Patient chose not to receive a foot examination in the 12 months leading up to and including the payment period end date.,PCA,Specific
 FENOPCASU1,FENOPCASU1,FeNO service unavailable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
 FEPU,FEPU,Patient for whom a foot examination was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,Specific
+GENORANTID,GENORANTID,Patient has a chosen not to receive a generic oral anticoagulant in the last 12 months,PCA,Specific
 GLUCDEC,GLUCDEC,Patients who chose not to receive a blood glucose test in the 12 months leading up to and including the payment period end date.,PCA,Specific
-HFDIAGINV,HFDIAGINVITE,"Patients who have not responded to at least two heart failure care review invitations, made at least 7 days apart, in the period 93 days before and up to 186 days after their earliest unresolved heart failure diagnosis.",PCA,Specific
 HFINVITE,HFINVITE,"Patient has not responded to at least two heart failure care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date",PCA,General
 HFPCADEC,HFPCADEC,Patient chose not to receive heart failure quality indicator care in the 12 months leading up to and including the payment period end date,PCA,General
 HFPCAPU,HFPCAPU,Patient for whom heart failure quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
-HFPCASUSP1,HFPCASUSP1,Heart failure service unavailable in the 6 months after heart failure diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
-HFREGINV,HFREGINVITE,"Patients who have not responded to at least two heart failure care review invitations, made at least 7 days apart, up to 186 days after their latest registration date.",PCA,Specific
+HFPCAPU6,HFPCAPU6,Patient was clinically unsuitable for heart failure quality indicator care in the 6 months following registration at a new practice for patients diagnosed prior to registering at the new practice.,PCA,Specific
 HSTRK,HSTRK,Patient has had a haemorrhagic stroke up to and including the achievement date.,Exclusion,n/a
 HTMAX,HTMAX,Patient receiving maximal blood pressure therapy in the 12 months leading up to and including the payment period end date.,PCA,Specific
-HYPBPINV,HYPBPINVITE,"Patient has received at least two invitations for hypertension monitoring in the 12 months leading up to and including the payment period end date, and had no blood pressure recordings, or latest blood pressure reading is above target levels.",PCA,General
+HYPBPINV,HYPBPINV,"Patient has received at least two invitations for hypertension monitoring in the 12 months leading up to and including the payment period end date, and had no blood pressure recordings, or latest blood pressure reading is above target levels.",PCA,General
 HYPPCADEC,HYPPCADEC,Patient chose not to receive hypertension quality indicator care in the 12 months leading up to and including the payment period end date,PCA,General
 HYPPCAPU,HYPPCAPU,Patient for whom hypertension quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
 IFCCHBA,IFCCHBA,Patient did not have their IFCC-HbA1c recorded during the current service year but did have serum fructosamine recorded during the service year.,PCA,Specific
 LBBDEC,LBBDEC,Patient chose not to receive beta blockers in the 12 months leading up to and including the payment period end date,PCA,Specific
+LLTADV,LLTADV,Patient has a lipid lowering therapy adverse reaction anywhere in the patient record,PCA,Specific
+LLTCONNIND,LLTCONNIND,Patient has either a lipid lowering therapy contraindication in the last 12 months and/or a lipid lowering therapy not indiciated code in the last 12 months,PCA,Specific
+LLTDEC12M,LLTDEC12M,Patient has a chosen not to receive a lipid lowering therapy in the last 12 months,PCA,Specific
 MDRV_DAT,MDRV_DAT,Cancer care review recorded more than 12 months before end of payment period,Exclusion,n/a
 MDSEVFRAIL,MDSEVFRAIL,Patient's latest frailty diagnosis is moderate or severe.,Exclusion,n/a
 MEDRVWDEC,MEDRVWDEC,Patients who chose not to receive a medication review in the 12 months leading up to and including the payment period end date.,PCA,Specific
@@ -104,40 +105,39 @@ MHINVITE,MHINVITE,"Patient has not responded to at least two mental health care 
 MHPCADEC,MHPCADEC,Patients who chose not to receive mental health quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 MHPCAPU,MHPCAPU,Patient for whom mental health quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 MHREM_DAT,MHREM_DAT,Patient in remission,Exclusion,n/a
-MMRCON,MMRCON,Patient contraindicated to the MMR vaccine up to and including the date the patient attained 18 months of age,PCA,Specific
-MMRDTAPCON,MMRDTAPCON,"Patient met any of the following criteria before 5th birthday: both MMR and DTaP/IPV contraindicated; received 2 doses of MMR but  DTaP/IPV contraindicated; received a reinforcing dose of DTaP/IPV, but  MMR vaccine contraindicated",PCA,Specific
-MRC1,MRC1,Patient has not had a Medical Research Council (MRC) breathlessness scale score of >3 in the 12 months leading up to and including the payment period end date.,Exclusion,n/a
+MMRCON,MMRCON,Patient contraindicated to the MMR vaccine up to and including the date the patient attained 18 months of age.,PCA,Specific
+MMRDTAPCON,MMRDTAPCON,"Patient met any of the following criteria before 5th birthday: both MMR and DTaP/IPV contraindicated; received 2 doses of MMR but  DTaP/IPV contraindicated; received a reinforcing dose of DTaP/IPV, but  MMR vaccine contraindicated.",PCA,Specific
+MRC1,MRC1,Patient has a Medical Research Council (MRC) breathlessness scale score of ?3 in the 12 months leading up to and including the payment period end date.,Exclusion,n/a
+NDHDMIFCC,NDHDMIFCC,"Patient’s most recent diabetes diagnosis is unresolved, up to and including the quality service end date (i.e. patient is on the diabetes register). OR Patient has not received an IFCC-HbA1c reading or fasting plasma glucose test since the quality service start date and up to and including either*: the quality service end date, or the patients earliest unresolved diabetes diagnosis. ",PCA,Specific
 NDHINVITE,NDHINVITE,"Patient has not responded to at least two non-diabetic hyperglycaemia  care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 NDHPCADEC,NDHPCADEC,Patient chose not to receive non diabetic hyperglycaemia  quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 NDHPU,NDHPU,Patient for whom non diabetic hyperglycaemia  quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
 NOCX,NOCX,Patient has had a complete removal of the cervix.,Exclusion,n/a
 NPTDEC,NPTDEC,Patient chose not to receive neuropathy testing in the 12 months leading up to and including the payment period end date.,PCA,Specific
 NPTPU,NPTPU,Patient for whom neuropathy testing was unsuitable in the 12 months leading up to and including the payment period end date,PCA,Specific
-ORANTCOADC,ORANTICOAGDEC,Patient chose not to receive an oral anticoagulant in the 12 months leading up to and including the payment period end date.,PCA,Specific
+OLLTCONDEC,OLLTCONDEC,"Patient has either an allergy (anywhere), adverse reaction (anywhere), contraindication (in last 12 months), not indicated (in last 12 months) and/or declined (in last 12 months) code to each of bempedoic acid, ezetimibe, icosapent ethyl, inclisiran and PCSK9 inhibitors",PCA,Specific
 OSTREXCL,OSTREXCL,Patient does not have a non-haemorrhagic stroke or a TIA diagnosis up to and including the achievement date.,Exclusion,n/a
 P_AGE25_49,P_AGE25_49,Patient age is less than 25 years or greater than 49 years,Exclusion,n/a
 P_AGE50_64,P_AGE50_64,Patient age is less than 50 years or greater than 64 years,Exclusion,n/a
-PALCARE,PALCARE,Patients who have a palliative care code recorded between 1 April 2008 and up to and including the achievement date and have not been subsequently identified as no longer requiring palliative care.,Exclusion,n/a
+PALCARDAT2,PALCARDAT2,"Patients who have a palliative care code recorded on or after 1 April 2008 and who have not been subsequently identified as no longer requiring palliative care, up to and including the achievement date.",PCA,Specific
 PAT_AGEO19,PAT_AGEO19,Patient age is over 19 years,Exclusion,n/a
 PAT_AGEO79,PAT_AGEO79,Patient age is over 79 years,Exclusion,n/a
 PAT_AGEU39,PAT_AGEU39,Patient age is 39 years or less,Exclusion,n/a
 PAT_AGEU45,PAT_AGEU45,Patient age is under 45 years,Exclusion,n/a
 PAT_AGEU80,PAT_AGEU80,Patient age is under 80 years,Exclusion,n/a
+PCADTP,PCADTP,"Patient has insufficient time to complete the full course of diphtheria, tetanus and pertussis vaccinations following registration with the practice.",PCA,Specific
+PCAMMR1,PCAMMR1,Patient has insufficient time to complete the full course of MMR vaccinations following registration with the practice.,PCA,Specific
+PCAMMRDTAP,PCAMMRDTAP,Patient has insufficient time to complete the full course of MMR DTaP/IPV vaccinations following registration with the practice.,PCA,Specific
+PHCSMIPCA,PHCSMIPCA,"Patients who did not receive all 6 elements of the Physical Health Check for people with Severe Mental Illness, where there was a valid reason for each element not received.",PCA,Specific
 PREG_DAT,PREG_DAT,Patients who were pregnant in the 12 months leading up to and including the payment period end date.,PCA,Specific
 PRT_COD,PRT_COD,No proteinuria or microalbuminuria codes recorded,Exclusion,n/a
-PULRHBATT,PULRHBATT,Patient has attended pulmonary rehabilitation at any point between date of diagnosis and prior to an MRC breathlessness scale score of >3 up to and including the payment period end date.,Exclusion,n/a
-PULRHBDEC,PULRHBDEC,Patient chose not to be referred to a pulmonary rehabilitation service in the 12 months leading up to and including the payment period end date.,PCA,Specific
+PULRHBATT,PULRHBATT,Patient has attended pulmonary rehabilitation at any point between date of diagnosis and prior to a MRC breathlessness scale score of ?3 up to and including the payment period end date.,Exclusion,n/a
 PULRHBPU,PULRHBPU,Patient for whom pulmonary rehabilitation was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,Specific
-PULRHBSU,PULRHBSU,COPD service or pulmonary rehabilitation service unavailable in the 12 months leading up to and including the payment period end date.,PCA,Specific
-QIDPCADEC,QIDPCADEC,Patient chose not to be referred for social prescribing within the quality service period.,PCA,Specific
-QIDPCAPU,QIDPCAPU,Patient was referred to social prescribing prior to the quality service start date.,PCA,Specific
-RAINVITE,RAINVITE,"Patient has not responded to at least two rheumatoid arthritis care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date. ",PCA,General
-RAPCADEC,RAPCADEC,Patient chose not to receive rheumatoid arthritis quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
-RAPCAPU,RAPCAPU,Patients for whom rheumatoid arthritis quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
-REG_ECOG,REG_ECOG,Patients with an existing unresolved heart failure diagnosis whose most recent registration was within the 6 months leading up to and including the payment period end date and they did not receive an echocardiogram/specialist between 93 days before the date of registration and the payment period end date.,Exclusion,n/a
-REG1_DAT3,REG_DAT3,Patient registered within 3 months of end of payment period,PCA,General
-REG1_DAT9,REG_DAT9,Patient registered within 9 months of end of payment period,PCA,General
-REGASTTST,REG_ASTTEST,Patients with an existing unresolved asthma diagnosis whose most recent registration was within the 6 months leading up to and including the payment period end date and they did not receive the required tests between 93 days before the date of registration and the payment period end date.,Exclusion,n/a
+PULRHBSU,PULRHBSU,COPD service or pulmonary rehabilitation service was unavailable in the 12 months leading up to and including the payment period end date.,PCA,Specific
+REG1_DAT3,REG1_DAT3,Patient registered within 3 months of end of payment period,PCA,General
+REG1_DAT9,REG1_DAT9,Patient registered within 9 months of end of payment period,PCA,General
+REG6_ECOG,REG6_ECOG,Patients with an existing unresolved heart failure diagnosis whose most recent registration was within the 6 months leading up to and including the payment period end date and they did not receive an echocardiogram/specialist assessment on or after registration and up to and including the achievement date.,PCA,Specific
+REGASTTST,REGASTTST,Patients with an existing unresolved asthma diagnosis whose most recent registration was within the 6 months leading up to and including the payment period end date and they did not receive the required tests between 93 days before the date of registration and the payment period end date.,Exclusion,n/a
 SALDEC,SALDEC,"Patient chose not to receive salicylates, oral anticoagulants and clopidogrel in the 12 months leading up to and including the payment period end date.",PCA,Specific
 SALDIPDEC,SALDIPDEC,"Patient chose not to receive salicylates, oral anticoagulants, clopidogrel and dipyridamole in the 12 months leading up to and including the payment period end date.",PCA,Specific
 SHCON,SHCON,Patient contraindicated to a shingles vaccine up to and including the payment period end date.,PCA,Specific
@@ -148,24 +148,26 @@ SHV2AGE,SHV2AGE,Patient is not in the age 80-81 years (inclusive) age bracket at
 SMOKINVITE,SMOKINVITE,"Patient has not responded to at least two smoking care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 SMOKPCADEC,SMOKPCADEC,Patient chose not to receive smoking quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 SMOKPCAPU,SMOKPCAPU,Patient for whom smoking quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date.,PCA,General
-SMOKSTDEC,SMOKSTATDEC,Patient chose not to disclose their smoking status in the 12 months leading up to and including the payment period end date.,PCA,Specific
+SMOKSTDEC,SMOKSTDEC,Patient chose not to disclose their smoking status in the 12 months leading up to and including the payment period end date.,PCA,Specific
 SPIRDECSP1,SPIRDECSP1,Patient chose not to receive spirometry in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
-SPIRPCASU1,SPIRPCASUSP1,Spirometry service unavailable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
+SPIRPCASU1,SPIRPCASU1,Spirometry service unavailable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
 SPIRPUSP1,SPIRPUSP1,Patient for whom spirometry was unsuitable in the 6 months after asthma diagnosis or in the 6 months following registration for patients newly diagnosed in 12 months up to and including the payment period end date.,PCA,Specific
 STATINDEC,STATINDEC,Patient chose not to receive a statin prescription in the 12 months leading up to and including the payment period end date.,PCA,Specific
 STBPINVITE,STBPINVITE,"Patient received two invitations for stroke monitoring and had no blood pressure recordings during the 12 months leading up to and including the achievement date, or latest blood pressure reading is above target levels.",PCA,General
 STIAINVITE,STIAINVITE,"Patient has not responded to at least two stroke care review invitations, made at least 7 days apart, in the 12 months leading up to and including the payment period end date.",PCA,General
 STIAPCADEC,STIAPCADEC,Patient chose not to receive stroke quality indicator care in the 12 months leading up to and including the payment period end date.,PCA,General
 STIAPCAPU,STIAPCAPU,Patient for whom stroke quality indicator care was unsuitable in the 12 months leading up to and including the payment period end date,PCA,General
+TXGORANTIC,TXGORANTIC,Patient has an expiring generic oral anticoagulant contraindication recorded in the last 12 months,PCA,Specific
 TXLBB,TXLBB,Patient has an expiring contraindication to licensed beta-blockers recorded in the 12 months leading up to and including the payment period end date.,PCA,Specific
-TXORANTCOA,TXORANTICOAG_DAT,Patient has an expiring oral anticoagulant contraindication recorded in the last 12 months.,PCA,Specific
 TXSTAT,TXSTAT,Patient has an expiring statin contraindication recorded in the 12 months leading up to and including the payment period end date.,PCA,Specific
-ULBB,ULBB_DAT,Unlicensed Beta Blocker prescribed is within 6 months of Heart Failure diagnosis,PCA,Specific
+ULBB,ULBB,Unlicensed Beta Blocker prescribed is within 6 months of Heart Failure diagnosis,PCA,Specific
+VALVITKCON,VALVITKCON,Patients with a mechanical prosthetic valve replacement and a Vitamin K antagonist contraindication anywhere up to the achievement date,PCA,Specific
+VALVITKDEC,VALVITKDEC,Patients with a mechanical prosthetic valve replacement and who chose not to receive a Vitamin K antagonist in the 12 months up to the reporting period end date,PCA,Specific
 XACE,XACE,"Patient has a persisting ACE-I contraindication or an expiring ACE-I contraindication, and the patient has a persisting ARB contraindication or an expiring ARB contraindication, in the 12 months leading up to and including the payment period end date.",PCA,Specific
 XACEARBDEC,XACEARBDEC,"Patient has a persisting ACE-I contraindication or an expiring ACE-I contraindication or has chosen not to receive an ACE-I, and the patient has a persisting ARB contraindication or an expiring ARB contraindication or has chosen not to receive an ARB, in the 12 months leading up to and including the payment period end date.",PCA,Specific
 XCLO_CODC,XCLO_CODC,"Patient has persisting Salicylate, oral anticoagulant or Clopidogrel contraindications recorded or expiring Salicylate, oral anticoagulant  or Clopidogrel contraindications recorded in the 12 months before end of payment period",PCA,Specific
+XGORANTICO,XGORANTICO,Patient has a persisting generic anticoagulant contraindication recorded anywhere in their record,PCA,Specific
 XLBB,XLBB,Patient has a persisting contraindication to licensed beta-blockers recorded.,PCA,Specific
-XOANTC_COD,XOANTC_COD,Patient has persisting anticoagulant contraindications recorded anywhere in their record,PCA,Specific
 XSAL,XSAL,"Patient has persisting salicylate, oral anticoagulant or clopidogrel contraindications recorded or expiring salicylate, oral anticoagulant  or clopidogrel contraindications recorded in the 12 months before end of payment period or chose not to receive salicylate, oral anticoagulant or clopidogrel in the 12 months leading up to and including the payment period end date",PCA,Specific
 XSALCONTRA,XSALCONTRA,"Patient has persisting salicylate, oral anticoagulant, clopidogrel or dipyridamole contraindications recorded or expiring salicylate, oral anticoagulant, clopidogrel or dipyridamole contraindications recorded in the 12 months leading up to and including the payment period end date",PCA,Specific
 XSALDIPDEC,XSALDIPDEC,"Patient has persisting salicylate, oral anticoagulant, clopidogrel or dipyridamole contraindications recorded or expiring salicylate, oral anticoagulant, clopidogrel or dipyridamole contraindications recorded in the 12 months leading up to and including the payment period end date or chose not to receive salicylate, oral anticoagulant, clopidogrel or dipyridamole in the 12 months leading up to and including the payment period end date.",PCA,Specific
