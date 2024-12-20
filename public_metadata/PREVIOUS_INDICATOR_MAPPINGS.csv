@@ -1,42 +1,42 @@
 INDICATOR_CODE,INDICATOR_POINT_VALUE,INDICATOR_GROUP_CODE,INDICATOR_GROUP_DESCRIPTION,DOMAIN_CODE,DOMAIN_DESCRIPTION,PATIENT_LIST_TYPE,PATIENT_ADD_LIST_TYPE
 AF001,5,AF,Atrial fibrillation,CL,Clinical,TOTAL,TOTAL
 AF006,12,AF,Atrial fibrillation,CL,Clinical,TOTAL,TOTAL
-AF007,25,AF,Atrial fibrillation,CL,Clinical,TOTAL,TOTAL
+AF007,12,AF,Atrial fibrillation,CL,Clinical,TOTAL,TOTAL
 AST005,4,AST,Asthma,CL,Clinical,06OV,TOTAL
 AST006,15,AST,Asthma,CL,Clinical,06OV,TOTAL
 AST007,20,AST,Asthma,CL,Clinical,06OV,TOTAL
 AST008,6,AST,Asthma,CL,Clinical,06OV,06_19
 BP002,15,BP,Blood pressure,PH,Public Health,45OV,TOTAL
 CAN001,5,CAN,Cancer,CL,Clinical,TOTAL,TOTAL
-CAN004,0,CAN,Cancer,CL,Clinical,TOTAL,TOTAL
-CAN005,0,CAN,Cancer,CL,Clinical,TOTAL,TOTAL
+CAN004,6,CAN,Cancer,CL,Clinical,TOTAL,TOTAL
+CAN005,2,CAN,Cancer,CL,Clinical,TOTAL,TOTAL
 CHD001,4,CHD,Secondary prevention of coronary heart disease,CL,Clinical,TOTAL,TOTAL
-CHD005,15,CHD,Secondary prevention of coronary heart disease,CL,Clinical,TOTAL,TOTAL
+CHD005,7,CHD,Secondary prevention of coronary heart disease,CL,Clinical,TOTAL,TOTAL
 CHD008,12,CHD,Secondary prevention of coronary heart disease,CL,Clinical,TOTAL,79UN
 CHD009,5,CHD,Secondary prevention of coronary heart disease,CL,Clinical,TOTAL,80OV
 CKD005,6,CKD,Chronic kidney disease,CL,Clinical,18OV,TOTAL
 COPD008,2,COPD,Chronic obstructive pulmonary disease,CL,Clinical,TOTAL,TOTAL
 COPD009,8,COPD,Chronic obstructive pulmonary disease,CL,Clinical,TOTAL,TOTAL
 COPD010,9,COPD,Chronic obstructive pulmonary disease,CL,Clinical,TOTAL,TOTAL
-CS005,7,CS,Cervical screening,PHAS,Public Health Additional Service,25_64_F,25_49_F
-CS006,4,CS,Cervical screening,PHAS,Public Health Additional Service,25_64_F,50_64_F
+CS005,7,CS,Cervical screening,PHAS,Public Health Additional Services,25_64_F,25_49_F
+CS006,4,CS,Cervical screening,PHAS,Public Health Additional Services,25_64_F,50_64_F
 DEM001,5,DEM,Dementia,CL,Clinical,TOTAL,TOTAL
 DEM004,39,DEM,Dementia,CL,Clinical,TOTAL,TOTAL
 DEP003,10,DEP,Depression,CL,Clinical,18OV,TOTAL
-DM006,6,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
+DM006,3,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM012,4,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM014,11,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM017,6,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM019,10,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM020,17,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 DM021,10,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
-DM022,8,DM,Diabetes mellitus,CL,Clinical,17OV,40OV
-DM023,4,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
+DM022,4,DM,Diabetes mellitus,CL,Clinical,17OV,40OV
+DM023,2,DM,Diabetes mellitus,CL,Clinical,17OV,TOTAL
 EP001,1,EP,Epilepsy,CL,Clinical,18OV,TOTAL
 HF001,4,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
-HF003,12,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
+HF003,6,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
 HF005,6,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
-HF006,12,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
+HF006,6,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
 HF007,7,HF,Heart failure,CL,Clinical,TOTAL,TOTAL
 HYP001,6,HYP,Hypertension,CL,Clinical,TOTAL,TOTAL
 HYP003,14,HYP,Hypertension,CL,Clinical,TOTAL,79UN
@@ -46,28 +46,32 @@ MH001,4,MH,Mental health,CL,Clinical,TOTAL,TOTAL
 MH002,6,MH,Mental health,CL,Clinical,TOTAL,TOTAL
 MH003,4,MH,Mental health,CL,Clinical,TOTAL,TOTAL
 MH006,4,MH,Mental health,CL,Clinical,TOTAL,TOTAL
-MH007,0,MH,Mental health,CL,Clinical,TOTAL,TOTAL
-MH011,0,MH,Mental health,CL,Clinical,TOTAL,TOTAL
-MH012,0,MH,Mental health,CL,Clinical,TOTAL,TOTAL
-NDH001,0,NDH,Non-diabetic hyperglycaemia ,CL,Clinical,18OV,TOTAL
+MH007,4,MH,Mental health,CL,Clinical,TOTAL,TOTAL
+MH011,8,MH,Mental health,CL,Clinical,TOTAL,TOTAL
+MH012,8,MH,Mental health,CL,Clinical,TOTAL,TOTAL
+NDH001,18,NDH,Non-diabetic hyperglycaemia ,CL,Clinical,18OV,TOTAL
 OB002,8,OB,Obesity,PH,Public Health,18OV,TOTAL
 OST004,3,OST,Osteoporosis: secondary prevention of fragility fractures,CL,Clinical,50OV,TOTAL
 PAD001,2,PAD,Peripheral arterial disease,CL,Clinical,TOTAL,TOTAL
 PC001,3,PC,Palliative care,CL,Clinical,TOTAL,TOTAL
-QIECD005,27,QIECD,Early cancer diagnosis,QI,Quality improvement,TOTAL,TOTAL
-QIECD006,10,QIECD,Early cancer diagnosis,QI,Quality improvement,TOTAL,TOTAL
-QILD007,27,QILD,Care of people with learning disabilities,QI,Quality improvement,TOTAL,TOTAL
-QILD008,10,QILD,Care of people with learning disabilities,QI,Quality improvement,TOTAL,TOTAL
+QIPDD009,27,QIPDD,Prescription Drug Dependency,QI,Quality improvement,TOTAL,TOTAL
+QIPDD010,10,QIPDD,Prescription Drug Dependency,QI,Quality improvement,TOTAL,TOTAL
+QIOA011,27,QIOA,Optimising Access,QI,Quality improvement,TOTAL,TOTAL
+QIOA012,10,QIOA,Optimising Access,QI,Quality improvement,TOTAL,TOTAL
 RA001,1,RA,Rheumatoid arthritis,CL,Clinical,16OV,TOTAL
 RA002,5,RA,Rheumatoid arthritis,CL,Clinical,16OV,TOTAL
 SMOK002,25,SMOK,Smoking,PH,Public Health,15OV,TOTAL
 SMOK004,12,SMOK,Smoking,PH,Public Health,15OV,TOTAL
 SMOK005,25,SMOK,Smoking,PH,Public Health,15OV,TOTAL
 STIA001,2,STIA,Stroke and transient ischaemic attack,CL,Clinical,TOTAL,TOTAL
-STIA007,8,STIA,Stroke and transient ischaemic attack,CL,Clinical,TOTAL,TOTAL
+STIA007,4,STIA,Stroke and transient ischaemic attack,CL,Clinical,TOTAL,TOTAL
 STIA010,3,STIA,Stroke and transient ischaemic attack,CL,Clinical,TOTAL,79UN
 STIA011,2,STIA,Stroke and transient ischaemic attack,CL,Clinical,TOTAL,80OV
 VI001,18,VI,Vaccination and immunisation,PHVI,Public Health Vaccination and Immunisation,TOTAL,0_1
 VI002,18,VI,Vaccination and immunisation,PHVI,Public Health Vaccination and Immunisation,TOTAL,1_2
 VI003,18,VI,Vaccination and immunisation,PHVI,Public Health Vaccination and Immunisation,TOTAL,4_5
 VI004,10,VI,Vaccination and immunisation,PHVI,Public Health Vaccination and Immunisation,TOTAL,79_80
+QIPDDMI001,0,QIPDD_MI,Prescription Drug Dependency (management information),QI,Quality improvement,18OV,TOTAL
+QIPDDMI002,0,QIPDD_MI,Prescription Drug Dependency (management information),QI,Quality improvement,18OV,TOTAL
+QIPDDMI003,0,QIPDD_MI,Prescription Drug Dependency (management information),QI,Quality improvement,18OV,TOTAL
+QIPDDMI004,0,QIPDD_MI,Prescription Drug Dependency (management information),QI,Quality improvement,18OV,TOTAL

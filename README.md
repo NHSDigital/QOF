@@ -6,9 +6,9 @@
 
 ## Contact Information
 
-Repository owner: Primary Care Domain Analytical Team
+Repository owner: GP Data, Extracts, Specifications and Analysis (GPDESA)
 
-Email: primarycare.domain@nhs.net
+Email: gpses@nhs.net
 
 To contact us raise an issue on Github or via email and we will respond promptly.
 
@@ -16,7 +16,7 @@ To contact us raise an issue on Github or via email and we will respond promptly
 
 ## Publication Summary
 
-The objective of the Quality and Outcomes Framework (QOF) is to improve the care patients are given by rewarding practices for the quality of care they provide to their patients, based on several indicators across a range of key areas of clinical care and public health. The publication provides data for the reporting year 1 April 2022 to 31 March 2023 and covers all General Practices in England that participated in QOF in 2022-23.
+The objective of the Quality and Outcomes Framework (QOF) is to improve the care patients are given by rewarding practices for the quality of care they provide to their patients, based on several indicators across a range of key areas of clinical care and public health. The publication provides data for the reporting year 1 April 2023 to 31 March 2024 and covers all General Practices in England that participated in QOF in 2023-24.
 
 The publications can be found here:
 
@@ -28,8 +28,6 @@ https://digital.nhs.uk/data-and-information/publications/statistical/quality-and
 
 > Whilst this repository is the publically accessible version, the main aim of this repository is to inform users how the publication outputs and indicators within the publication were produced and is unlikely to benefit users with regards to running and producing the publication outputs due to the specific nature of the input data required.
 
-Please note that you may not be able to run the code as this requires access to a private SQL server. The data on the private server contains reference data that is used for mapping and patient registration purposes. The reference tables used contain data from the epraccur file which can be downloaded from this [webpage](https://digital.nhs.uk/services/organisation-data-service/file-downloads/gp-and-gp-practice-related-data), and a restricted patient registration report from the National Health Applications and Infrastructure Service (NHAIS); the NHAIS patient registration data is however published each month [here](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice).
-
 <p>&nbsp;</p>
 
 ## Set up
@@ -38,7 +36,7 @@ Please note that you may not be able to run the code as this requires access to 
 2. Update config.json accordingly.
 3. Create the file structure within your machine as per the diagram below
 4. Move files from public_metadata folder into their respective folders and populate accordingly
-5. Run QOF_22_23_v2.ipynb.
+5. Run QOF_23_24.ipynb.
 > If you are running for publication you will need to amend the code so that test_run = False is unhashed
 
 <p>&nbsp;</p>
@@ -97,6 +95,9 @@ root
 > Please note that for test runs all outputs will be located within the test folder which is automatically created in your working directory
 
 <p>&nbsp;</p>
+
+## Instructions for publication production (internal analysts)
+Read the guidance https://nhsd-confluence.digital.nhs.uk/display/KH/Quality+and+Outcomes+Framework+%28QOF%29+data+download+and+publication+guidance.
 
 ## QOF Acronym dictonary
 - ach	= achievement
